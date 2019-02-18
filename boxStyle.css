@@ -1,0 +1,42 @@
+.first{
+    background-color: yellow;
+    width:400px;
+    height: 500px;
+    overflow: hidden;
+    max-width: 300px;
+}
+.second{
+    background-color: red;
+    height:300px;
+    width: 600px;
+    max-height: 200px;
+    overflow: scroll;
+}
+.yellowBackground{
+    background-color: yellow;
+    border: 5px thick black;
+}
+#first{
+    width:300px;
+    border: red dashed;
+    padding: 0px;
+    margin-right: 20px;
+}
+ #middle{ 
+    width:400px ;
+    margin-right:20px;
+    border:  green solid;
+    padding-top: 0px;
+    display: none;
+}
+#third{
+    width:200px;
+    border: red dashed;
+    padding: 0px;
+    margin-right: 20px;
+    visibility:hidden;
+    }
+h1{
+    width:960px;
+    
+}
