@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "prviFont";
+    src: url("fonts/felipa-regular-webfont.ttf"),
+        url("felipa-regular-webfont.woff"),
+        url("felipa-regular-webfont.woff2");
+         
+}
+body{
+
+    font-size: 30px;
+    font-weight: bold;
+}
+#prvi {
+    font-size: 200%;
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: left;
+}
+
+#drugi {
+    font-style: oblique;
+    font-family: "Roboto";
+    text-transform: lowercase;
+    text-decoration: line-through;
+    text-align: right;
+}
+#treci {
+    font-family: 'prviFont', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+#treci span {
+    font-weight: normal;
+    font-style: italic;
+    
+}
+ul {
+    text-shadow: 1px 1px 1px rgba(238, 86, 86, 1);
+}
+a :link {
+    color:tomato;
+}
+a :visited{
+    color:black;
+}
+
+a :hover{
+    color:green;
+}
+
+a :active{
+    color:blue;
+}
