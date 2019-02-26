@@ -1,0 +1,65 @@
+@import 'variable';
+@import 'mixins';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:$background-color;
+}
+
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    padding: 20px 0;
+    text-align: center;
+    background: $background-color2;
+    color: $color;
+    @include rules(25px,"Times New Roman");
+}
+
+h2 {
+    margin-bottom: 0px;
+    padding-left: 10px;
+    text-align: left;
+    background: $background-color2;
+    color: white;
+}
+
+img {
+    height: 400px;
+    margin: 40px auto 40px;
+    display: block;
+}
+
+table {
+    width: 100%;
+    color: $color2;
+    background: white;
+    border-collapse: collapse;
+    tr {
+        border-bottom: 1px solid #eee;
+    }
+    
+    td {
+        padding: 5px 0;
+        &:first-child {
+            width: 300px;
+            padding-left: 10px;
+            color:$color;
+        }
+    }
+}
+
+p{
+    color: red;
+    &#footer {
+        margin-top: 100px;
+    }
+}
+

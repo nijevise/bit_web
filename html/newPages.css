@@ -1,0 +1,17 @@
+.paragraphs, .red, .blue, .green {
+  font-size: 20px;
+  text-align: center; }
+
+.red {
+  border: 1px solid red;
+  width: 20.8333333333; }
+
+.blue {
+  border: 1px solid blue;
+  width: 0.5208333333; }
+
+.green {
+  border: 1px solid green;
+  width: 0.1041666667; }
+
+/*# sourceMappingURL=newPages.css.map */

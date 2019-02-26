@@ -1,0 +1,26 @@
+div {width: 960px;}
+
+.paragraphs{
+
+    font-size:20px;
+    text-align:center;    
+}
+.red{
+    @extend .paragraphs;
+    border:1px solid red;
+
+}
+.blue{
+    @extend .paragraphs;
+    border:1px solid blue;
+    width: 30%;
+
+}
+.green{
+    @extend .paragraphs;
+    border:1px solid green;
+    width: (600px/960px)*100%;
+
+}
+
+

@@ -1,0 +1,4 @@
+@mixin rules($fontSize, $fontFamily){
+    font-size: $fontSize;
+    font-family: $fontFamily;
+}
