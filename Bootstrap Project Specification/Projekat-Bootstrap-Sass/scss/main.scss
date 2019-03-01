@@ -1,0 +1,158 @@
+@import 'variables';
+@import 'mixins';
+@import 'contact';
+@import 'global';
+@import 'masthead';
+@import 'portfolio';
+
+
+/********** GENERAL LAYOUT ********/
+* {
+    box-sizing: border-box;
+}
+
+/************* LAYOUT ***************/
+.body-content {
+    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Lato-Regular', sans-serif;
+}
+nav {
+    background-color: $color-blueish;
+    font-family: 'Lato-Black', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 2%;  
+}
+.navbar-brand {
+
+    font-family: 'Lato-Black', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+a .nav-link{
+    font-family: 'Lato-Black', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar-light .navbar-brand {
+    color: white;
+}
+.navbar-light .navbar-toggler {
+    font-weight: bold;
+    color: white;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: $color-greenish;
+    border: 1px solid white;
+    border-radius: .25rem;
+}
+.gay{
+    color: white;
+    background-color:$color-greenish;
+    padding:5%;
+    font-family:"Lato-Black",sans-serif;
+    font-weight:bolder;
+    text-transform: uppercase;
+    h2{
+        margin-top:4%;
+    }
+    
+}
+
+.line-star {
+    width: 30%;
+    margin: 0 auto;
+    span {
+        font-size: 250%;
+        padding: 5%;
+    }
+}
+h3{
+    font-family: "Lato-Black",sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 250%;
+    padding-top:10%;
+}
+.portfolio{
+    margin-bottom: 15%;
+    img{
+        width: 70%;
+        padding-top: 5%;
+    }
+}
+.about{
+    color: white;
+    background-color:$color-greenish;
+    padding: 8%;
+    font-family:"Lato-Black",sans-serif;
+    font-weight:bolder;    
+    p{
+        text-align: left;
+        // padding: 2%;
+        line-height: 180%;
+    }
+}
+.info {
+    display: inline-block;
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    color: $color-greenish;
+    border-radius: 50%;
+    }
+.btn-outline-light {
+    font-family:"Lato-Black",sans-serif;
+    font-weight:bold;  
+    font-stretch: 5px;
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+footer{
+    color: white;
+    background-color:$color-blueish;
+    padding: 8%;
+    font-family:"Lato-Black",sans-serif;
+    font-weight:bolder; 
+    text-transform: uppercase;
+
+}
+.soc-icons {
+    list-style-type: none;
+    display: inline;
+    img {
+    width: 10%;
+    }
+}
+
+
+
+/************* HELPER ***************/
+.clearfix::before,
+.clearfix::after {
+    content: ' ';
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+
+
+
+/************* SPECIFIC STYLE ********/

@@ -1,0 +1,7 @@
+$color-greenish: #18bc9c;
+$color-blueish: #2c3e50;
+$color-contactForm: #495057;
+
+@mixin border-radius ($radius){
+    border-radius: $radius;
+}
