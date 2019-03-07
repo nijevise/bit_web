@@ -1,4 +1,1 @@
-function storeData(name) {
-    window.localStorage.getItem(name)
-}
-storeData("Marina");
+console.log(([1, 2, 35, 7].reduce));
