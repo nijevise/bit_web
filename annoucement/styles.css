@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+
+#container {
+    background-color: #f4c150;
+    text-align: center;
+    padding: 10px;
+}
+
+.first{
+    font-size: 20px;
+}
+
+.second{
+    padding-top: 5px;
+}
+
+#days{
+    font-size: 20px;
+
+}
