@@ -1,0 +1,19 @@
+ul{
+    width: 500px;
+}
+
+li{
+    width: 100%;
+    font-size: 30px;
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid #eee;
+}
+li:nth-of-type(odd){
+    background-color: #eee;
+}
+li:hover{
+    width: 400px;
+    transition: 0.8s;
+    background-color: #57c785;
+}
