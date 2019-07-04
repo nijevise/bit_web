@@ -1,0 +1,20 @@
+
+h2{
+    text-align: center;
+}
+
+p{
+    color: lightgray;
+}
+td{
+    border: 1px;
+    padding:  5px;
+    }
+
+.input{
+    border: none;
+    font-size: 20px;
+}
+.input:focus{
+    outline: none;
+}
